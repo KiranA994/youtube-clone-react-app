@@ -1,0 +1,158 @@
+#search-icon-button {
+    border: 1px solid #d3d3d3;
+    background-color: #f8f8f8;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    height: 40px;
+    width: 64px;
+    margin: 0;
+}
+
+
+.offcanvas-backdrop.show {
+    opacity: 0;
+}
+
+.navbar-toggler {
+    border: 0px;
+}
+
+
+#guide-primary.guide-primary-one {
+    padding: 16px 24px 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+#guide-secondary.guide-secondary-two {
+    padding: 12px 24px 0;
+}
+
+
+
+#guide-primary.guide-primary-one>a, 
+#guide-secondary.guide-secondary-two>a {
+    display: inline-block !important;
+    text-decoration: none;
+    color: #606060;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+#guide-primary.guide-primary-one>a:not(:last-child), 
+#guide-secondary.guide-secondary-two>a:not(:last-child) {
+    margin-right: 8px;
+}
+
+
+#copyright {
+    padding: 16px 24px;
+    color: #909090;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1rem;
+    line-height: 0.5rem;
+    font-weight: 400;
+}
+
+.modal.show .modal-dialog {
+    transform: none;
+    margin-left: 69%;
+    margin-top: 3%;
+    width: 20%;
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.card{
+    border: 0px;
+}
+
+.video-title{
+    color: #0f0f0f;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+}
+
+@media (min-width: 1200px){
+    .row-res{
+        margin-top: -382px !important;
+    }
+
+}
+
+@media (min-width: 958px){
+    .input-res{
+        width: 342px !important;
+    }
+    .row-res{
+        margin-top: -382px !important;
+    }
+}
+
+@media (min-width: 768px){
+
+    .row-res{
+        margin-top: -344px !important;
+    }
+    
+
+}
+
+@media (max-width: 768px){
+
+    .input-res{
+        width: 252px !important;
+    }
+
+    .row-res{
+        margin-top: 28px !important;
+        margin-left: -50px !important;
+    }
+
+    .main-icon-res{
+        margin-right: 400px !important;
+    }
+
+    .side-left-res{
+        display: none !important;
+    }
+    .sign-in-res{
+        margin-top: 0px;
+    }
+}
+
+
+@media (max-width: 600px){
+
+    .offcanvas-close{
+        margin-left: 0px !important;
+    }
+
+
+    .row-res{
+        margin-top: 6px !important;
+        margin-left: -20px !important;
+    }
+    .input-res{
+        width: 146px !important;
+    }
+    .main-icon-res{
+        margin-right: 174px !important;
+    }
+
+    .sign-in-res{
+        margin-top: 2px;
+    }
+
+    .three-dot{
+        display: none !important;
+    }
+
+    .side-left-res{
+        display: none !important;
+    }
+}
