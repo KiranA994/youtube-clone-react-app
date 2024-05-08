@@ -13,7 +13,7 @@ function Videocard({cssStyle}) {
         {count.video && !("value" in count)  ? 
         count.video?.map((item)=>(
             <div className="col-md-3 mb-5 videoCards" style={{cursor:'pointer'}} id="play">
-             <a href={item?.videoUrl} target='_blank' style={{textDecoration: 'none'}}>
+             <a href="#" target='_blank' style={{textDecoration: 'none'}}>
                 <div className="card" style={{width:'100%'}}>
               <img src={item?.thumbnailUrl} className="card-img-top" alt="..." style={{height:'200px'}} />
               <p className='ms-auto' style={{marginTop: '-30px',marginRight: '10px', backgroundColor: 'black', color: 'white',fontSize:'14px'}}>{item?.duration}</p>
@@ -37,7 +37,7 @@ function Videocard({cssStyle}) {
 {count.value ? 
         count.value?.map((item)=>(
             <div className="col-md-3 mb-5 videoCards" style={{cursor:'pointer'}} id="play">
-             <a href={item?.videoUrl} target='_blank' style={{textDecoration: 'none'}}>
+             <a href="#" target='_blank' style={{textDecoration: 'none'}}>
                 <div className="card" style={{width:'100%'}}>
               <img src={item?.thumbnailUrl} className="card-img-top" alt="..." style={{height:'200px'}} />
               <p className='ms-auto' style={{marginTop: '-30px',marginRight: '10px', backgroundColor: 'black', color: 'white',fontSize:'14px'}}>{item?.duration}</p>

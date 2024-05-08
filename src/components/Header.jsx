@@ -60,7 +60,7 @@ function Header({setcssStyle}) {
                 <path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z">
                 </path>
                 </svg>
-                <a className="nav-link active ms-4" aria-current="page" href="https://www.youtube.com/shorts/dPbxWbDvZDk">Shorts</a>
+                <a className="nav-link active ms-4" aria-current="page" href="#">Shorts</a>
               </li>
 
               <li className="nav-item d-flex align-items-center">
@@ -76,12 +76,12 @@ function Header({setcssStyle}) {
               <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" 
               style={{pointerEvents: 'none',display: 'inherit',width: '10%',height: '100%', marginLeft:'-4px'}}>
                 <path d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z"></path></svg>
-                <a className="nav-link active ms-4" aria-current="page" href="https://www.youtube.com/feed/you">You</a>
+                <a className="nav-link active ms-4" aria-current="page" href="#">You</a>
                 </li>
 
                 <li className="nav-item d-flex align-items-center">
                 <FontAwesomeIcon icon={faClockRotateLeft} />
-           <a className="nav-link active ms-4" aria-current="page" href="https://www.youtube.com/feed/history">History</a>
+           <a className="nav-link active ms-4" aria-current="page" href="#">History</a>
            </li>
 
                 <li className="nav-item d-flex align-items-center">
@@ -91,7 +91,7 @@ function Header({setcssStyle}) {
 
                 <li className="nav-item d-flex align-items-center">
                 <FontAwesomeIcon icon={faFlag} />
-           <a className="nav-link active ms-4" aria-current="page" href="https://www.youtube.com/reporthistory">Report history</a>
+           <a className="nav-link active ms-4" aria-current="page" href="#">Report history</a>
            </li>
 
                 <li className="nav-item d-flex align-items-center">
@@ -102,19 +102,19 @@ function Header({setcssStyle}) {
             </ul>
 
             <div id="guide-primary" className='guide-primary-one'>
-              <a slot='guide-primary' href="https://www.youtube.com/about/">About</a>
-              <a slot='guide-primary' href="https://www.youtube.com/about/press/">Press</a>
-              <a slot='guide-primary' href="https://www.youtube.com/about/copyright/">Copyright</a>
-              <a slot='guide-primary' href="https://www.youtube.com/t/contact_us/">Contact Us</a>
-              <a slot='guide-primary' href="https://www.youtube.com/creators/">Creators</a>
-              <a slot='guide-primary' href="https://www.youtube.com/ads/">Advertise</a>
-              <a slot='guide-primary' href="https://developers.google.com/youtube">Developers</a>
+              <a slot='guide-primary' href="#">About</a>
+              <a slot='guide-primary' href="#">Press</a>
+              <a slot='guide-primary' href="#">Copyright</a>
+              <a slot='guide-primary' href="#">Contact Us</a>
+              <a slot='guide-primary' href="#">Creators</a>
+              <a slot='guide-primary' href="#">Advertise</a>
+              <a slot='guide-primary' href="#">Developers</a>
             </div> 
             <div id="guide-secondary" className='guide-secondary-two'>
-              <a slot='guide-secondary' href="https://www.youtube.com/t/terms">Terms</a>
-              <a slot='guide-secondary' href="https://www.youtube.com/about/policies/">Policy & Safety</a>
-              <a slot='guide-secondary' href="https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen">How VideoMate Works</a>
-              <a slot='guide-secondary' href="https://www.youtube.com/new">Test New Features</a>
+              <a slot='guide-secondary' href="#">Terms</a>
+              <a slot='guide-secondary' href="#">Policy & Safety</a>
+              <a slot='guide-secondary' href="#">How VideoMate Works</a>
+              <a slot='guide-secondary' href="#">Test New Features</a>
             </div> 
 
             <div id="copyright">
@@ -151,7 +151,7 @@ function Header({setcssStyle}) {
             <button type='button' className='btn btn-transparent sign-in-res'
             style={{borderRadius: '10px', width:'100px', height:'50px', marginRight: '28px', border:'1px solid black'}}>
             <FontAwesomeIcon icon={faUser} className='me-2'/>   
-             <a style={{textDecoration: 'none', color:'black'}} href='https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&ec=65620&hl=en&passive=true&service=youtube&uilel=3&ifkv=ARZ0qKK5gG5IwFTdl5hv3tUfGK4C576AeNrypaJC6ET-2VX9vHrXGdTdvF12dbFs13MtF4dsCoD7bg&theme=mn&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin'>
+             <a style={{textDecoration: 'none', color:'black'}} href='#'>
               Sign In</a>
             </button>
             </a>
@@ -206,7 +206,7 @@ function Header({setcssStyle}) {
 
         <Modal show={show} onHide={handleClose}>
           <div className='d-flex flex-column'>
-              <a href="https://myaccount.google.com/u/0/yourdata/youtube?hl=en" className='d-flex align-items-center text-left' style={{textDecoration: 'none', color:'#606060'}}>
+              <a href="#" className='d-flex align-items-center text-left' style={{textDecoration: 'none', color:'#606060'}}>
               <FontAwesomeIcon icon={faShieldHalved} className='ms-2'  />
                 <p className='ms-3 mt-3' style={{textAlign:'left'}}>Your data in VideoMate</p>
               </a>
