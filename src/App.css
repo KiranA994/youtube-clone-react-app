@@ -155,4 +155,8 @@
     .side-left-res{
         display: none !important;
     }
+
+    .nav-canvas-res{
+        width: 100% !important;
+    }
 }

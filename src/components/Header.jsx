@@ -42,9 +42,9 @@ function Header({setcssStyle}) {
             id="hamburgerClose" onClick={handleCssOpen}>
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="offcanvas offcanvas-start" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false" 
+        <div className="offcanvas offcanvas-start nav-canvas-res" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false" 
         style={{width: '20%',
-            marginTop: '66px'}}>
+          marginTop: '66px'}}>
           <div className="offcanvas-body">
           <button type="button" className="btn-close text-reset offcanvas-close" data-bs-dismiss="offcanvas" aria-label="Close" onClick={handleCssClose}
           style={{marginLeft:'250px'}}></button>
